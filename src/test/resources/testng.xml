@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Financial API Test Suite">
+    <test name="Payment API Tests">
+        <classes>
+            <class name="com.adalakoti.api.tests.FinancialAPITest"/>
+        </classes>
+    </test>
+</suite>
