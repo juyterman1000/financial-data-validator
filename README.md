@@ -60,7 +60,9 @@ python validator.py --input sample_data/fix_log.txt --rules rules/fix_rules.json
 # Sample Output
 
 Message 101 Passed FIX Format & Field Validation
+
 Message 105 Failed: Missing tag 35 (MsgType)
+
 Message 112: Sequence out of order (expected 108, got 112)
 
 # Contributing
