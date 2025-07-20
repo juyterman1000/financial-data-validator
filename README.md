@@ -39,7 +39,9 @@ Real-time alerts
 
 Installation
 git clone https://github.com/juyterman1000/financial-data-validator.git
+
 cd financial-data-validator
+
 pip install -r requirements.txt
 
 #Quick Start
