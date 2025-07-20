@@ -38,17 +38,12 @@ Elastic search storage
 Real-time alerts
 
 Installation
-bash
-Copy
-Edit
 git clone https://github.com/juyterman1000/financial-data-validator.git
 cd financial-data-validator
 pip install -r requirements.txt
 
 #Quick Start
-bash
-Copy
-Edit
+
 python validator.py --input sample_data/fix_log.txt --rules rules/fix_rules.json
 
 # Test Protocols Supported
@@ -66,17 +61,6 @@ Message 101 Passed FIX Format & Field Validation
 Message 105 Failed: Missing tag 35 (MsgType)
 Message 112: Sequence out of order (expected 108, got 112)
 
-#Folder Structure
-kotlin
-Copy
-Edit
-financial-data-validator/
-├── parsers/
-├── validators/
-├── rules/
-├── sample_data/
-├── reports/
-└── README.md
 # Contributing
 Contributions are welcome! Submit issues, feature requests, or pull requests. Please ensure you follow the contribution guidelines in CONTRIBUTING.md.
 
