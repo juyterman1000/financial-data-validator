@@ -1,4 +1,4 @@
-# financial-data-validator
+# Financial-Data-Validator
 A high-performance, extensible framework for validating financial data across protocols like FIX, Binary, TCP, and Multicast. Designed for regression, functional, and performance testing in high-frequency trading (HFT) and institutional finance environments.
 
 #  Key Features
@@ -61,9 +61,7 @@ python validator.py --input sample_data/fix_log.txt --rules rules/fix_rules.json
  Custom TCP/IP JSON/Protobuf
 
 # Sample Output
-mathematica
-Copy
-Edit
+
 Message 101 Passed FIX Format & Field Validation
 Message 105 Failed: Missing tag 35 (MsgType)
 Message 112: Sequence out of order (expected 108, got 112)
